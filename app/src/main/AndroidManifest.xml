@@ -14,12 +14,10 @@
         android:theme="@style/Theme.MyTestProject">
         <activity
             android:name=".view.main.MainActivity"
-            android:exported="false"
-            android:label="@string/item_added"/>
+            android:exported="false" />
         <activity
             android:name="com.jyotirmayg.mytestproject.view.login.LoginActivity"
-            android:exported="true"
-            android:label="@string/login">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
