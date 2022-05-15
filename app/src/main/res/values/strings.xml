@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyTestProject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_success">Login successful</string>
+    <string name="login_failed">Incorrect username/password</string>
+    <string name="or">or</string>
+    <string name="use_biometric">Use Biometric</string>
+
+    <string name="add_item">Add item</string>
+    <string name="sl_no">Sl. No.</string>
+    <string name="item">Item</string>
+    <string name="quantity">Qty.</string>
+    <string name="rate">Rate</string>
+    <string name="gst">GST</string>
+    <string name="item_name">Item Name</string>
+    <string name="verifiy_identity">Verify your identity</string>
+    <string name="verify_biometric_message">Confirm your screen lock pattern, PIN, password or fingerprint</string>
+    <string name="use_credential">Use Credential</string>
+    <string name="error_no_biometric_hardware">Sorry. It seems your device has no biometric hardware</string>
+    <string name="login">Login</string>
+    <string name="item_added">Item</string>
+</resources>
