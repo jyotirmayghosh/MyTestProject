@@ -93,7 +93,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:hint="@string/password"
-                    android:inputType="text"
+                    android:inputType="textPassword"
                     android:padding="@dimen/_8sdp" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
