@@ -16,7 +16,7 @@ interface ItemDao {
      * @param item is the data class holding item details.
      * */
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun addItem(item: Item): Long
+    fun addItem(item: Item): Long
 
     /**
      * This function will be called to get the saved item details.

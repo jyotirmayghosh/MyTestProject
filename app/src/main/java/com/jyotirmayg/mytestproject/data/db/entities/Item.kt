@@ -14,8 +14,15 @@ import androidx.room.PrimaryKey
 data class Item(
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0,
-    val itemName: String? = null,
-    val qty: String? = null,
-    val rate: Double? = null,
-    val gst: Double? = null
-)
+    var itemName: String? = null,
+    var qty: String? = null,
+    var rate: Double? = null,
+    var gst: Double? = null
+) {
+    constructor(itemName: String, qty: String, rate: Double, gst: Double) : this() {
+        this.itemName = itemName
+        this.qty = qty
+        this.rate = rate
+        this.gst = gst
+    }
+}
