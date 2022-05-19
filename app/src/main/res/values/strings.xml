@@ -20,4 +20,14 @@
     <string name="error_no_biometric_hardware">Sorry. It seems your device has no biometric hardware</string>
     <string name="login">Login</string>
     <string name="item_added">Item</string>
+    <string name="title_activity_first_time">FirstTimeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="first_time">First Time</string>
 </resources>

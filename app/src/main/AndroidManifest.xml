@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jyotirmayg.mytestproject">
+    package="com.jyotirmayg.mytestproject" >
 
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
 
     <application
-        android:name=".base.Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyTestProject">
+        android:theme="@style/Theme.MyTestProject" >
         <activity
-            android:name=".view.main.MainActivity"
-            android:exported="false" />
+            android:name=".feature.FirstTimeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_first_time"
+            android:theme="@style/Theme.MyTestProject.NoActionBar" />
         <activity
-            android:name="com.jyotirmayg.mytestproject.view.login.LoginActivity"
+            android:name=".feature.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +25,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".feature.addItem.AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.login.LoginActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
